@@ -4,4 +4,4 @@
 2. open in anyway editor
 3. change variables
 4. save backup.sh
-5. type `.backup.sh` to in your terminal and press enter
+5. type `./backup.sh` to in your terminal and press enter
