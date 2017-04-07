@@ -7,7 +7,7 @@ user="user"
 port="3306"
 database="database"
 # dump database
-mysqldump -h $host -u $user -p -P $port --databases $database > $database-$timestamp.sql
+mysqldump -h $host -u $user -p -P $port $database > $database-$timestamp.sql
 
 # variables for zip project folder
 projectFolder="projectfolder"
